@@ -343,3 +343,4 @@ kubectl config set-context --current --namespace $CLUSTER_NAME
 #
 azdata login -n $CLUSTER_NAME
 azdata bdc endpoint list --output table
+}
